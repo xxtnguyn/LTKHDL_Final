@@ -1,0 +1,65 @@
+Instrument,Field,Description,Type,Values,Value Labels
+Identifier,id,ID của người tham gia,str,,
+Demographics,Basic_Demos-Enroll_Season,Mùa đăng ký,str,"Spring, Summer, Fall, Winter",
+Demographics,Basic_Demos-Age,Tuổi của người tham gia,float,,
+Demographics,Basic_Demos-Sex,Giới tính của người tham gia,categorical int,"0,1","0=Nam, 1=Nữ"
+Children's Global Assessment Scale,CGAS-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+Children's Global Assessment Scale,CGAS-CGAS_Score,Điểm Thang Đánh Giá Toàn Cầu dành cho Trẻ em,int,,
+Physical Measures,Physical-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+Physical Measures,Physical-BMI,Chỉ số khối cơ thể (kg/m^2),float,,
+Physical Measures,Physical-Height,Chiều cao (inch),float,,
+Physical Measures,Physical-Weight,Cân nặng (lbs),float,,
+Physical Measures,Physical-Waist_Circumference,Chu vi vòng eo (inch),int,,
+Physical Measures,Physical-Diastolic_BP,Huyết áp tâm trương (mmHg),int,,
+Physical Measures,Physical-HeartRate,Nhịp tim (nhịp/phút),int,,
+Physical Measures,Physical-Systolic_BP,Huyết áp tâm thu (mmHg),int,,
+FitnessGram Vitals and Treadmill,Fitness_Endurance-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+FitnessGram Vitals and Treadmill,Fitness_Endurance-Max_Stage,Giai đoạn tối đa đạt được,int,,
+FitnessGram Vitals and Treadmill,Fitness_Endurance-Time_Mins,Thời gian hoàn thành: Phút,int,,
+FitnessGram Vitals and Treadmill,Fitness_Endurance-Time_Sec,Thời gian hoàn thành: Giây,int,,
+FitnessGram Child,FGC-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+FitnessGram Child,FGC-FGC_CU,Tổng số lần gập bụng,int,,
+FitnessGram Child,FGC-FGC_CU_Zone,Vùng thể lực gập bụng,categorical int,"0,1","0=Cần Cải Thiện, 1=Vùng Thể Lực Khỏe Mạnh"
+FitnessGram Child,FGC-FGC_GSND,Tổng lực nắm tay (tay không thuận),float,,
+FitnessGram Child,FGC-FGC_GSND_Zone,Vùng thể lực lực nắm tay (tay không thuận),categorical int,"1,2,3","1=Yếu, 2=Bình Thường, 3=Mạnh"
+FitnessGram Child,FGC-FGC_GSD,Tổng lực nắm tay (tay thuận),float,,
+FitnessGram Child,FGC-FGC_GSD_Zone,Vùng thể lực lực nắm tay (tay thuận),categorical int,"1,2,3","1=Yếu, 2=Bình Thường, 3=Mạnh"
+FitnessGram Child,FGC-FGC_PU,Tổng số chống đẩy,int,,
+FitnessGram Child,FGC-FGC_PU_Zone,Vùng thể lực chống đẩy,categorical int,"0,1","0=Cần Cải Thiện, 1=Vùng Thể Lực Khỏe Mạnh"
+FitnessGram Child,FGC-FGC_SRL,Tổng điểm Ngồi vươn (bên trái),float,,
+FitnessGram Child,FGC-FGC_SRL_Zone,Vùng thể lực Ngồi vươn (bên trái),categorical int,"0,1","0=Cần Cải Thiện, 1=Vùng Thể Lực Khỏe Mạnh"
+FitnessGram Child,FGC-FGC_SRR,Tổng điểm Ngồi vươn (bên phải),float,,
+FitnessGram Child,FGC-FGC_SRR_Zone,Vùng thể lực Ngồi vươn (bên phải),categorical int,"0,1","0=Cần Cải Thiện, 1=Vùng Thể Lực Khỏe Mạnh"
+FitnessGram Child,FGC-FGC_TL,Tổng điểm Nâng thân,int,,
+FitnessGram Child,FGC-FGC_TL_Zone,Vùng thể lực Nâng thân,categorical int,"0,1","0=Cần Cải Thiện, 1=Vùng Thể Lực Khỏe Mạnh"
+Bio-electric Impedance Analysis,BIA-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+Bio-electric Impedance Analysis,BIA-BIA_Activity_Level_num,Mức độ hoạt động,categorical int,"1,2,3,4,5","1=Rất Nhẹ, 2=Nhẹ, 3=Trung Bình, 4=Nặng, 5=Phi Thường"
+Bio-electric Impedance Analysis,BIA-BIA_BMC,Hàm lượng khoáng chất xương,float,,
+Bio-electric Impedance Analysis,BIA-BIA_BMI,Chỉ số khối cơ thể,float,,
+Bio-electric Impedance Analysis,BIA-BIA_BMR,Tốc độ chuyển hóa cơ bản,float,,
+Bio-electric Impedance Analysis,BIA-BIA_DEE,Chi tiêu năng lượng hàng ngày,float,,
+Bio-electric Impedance Analysis,BIA-BIA_ECW,Nước ngoại bào,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FFM,Khối lượng không mỡ,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FFMI,Chỉ số khối không mỡ,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FMI,Chỉ số khối mỡ,float,,
+Bio-electric Impedance Analysis,BIA-BIA_Fat,Tỷ lệ mỡ cơ thể,float,,
+Bio-electric Impedance Analysis,BIA-BIA_Frame_num,Khung cơ thể,categorical int,"1,2,3","1=Nhỏ, 2=Trung Bình, 3=Lớn"
+Bio-electric Impedance Analysis,BIA-BIA_ICW,Nước nội bào,float,,
+Bio-electric Impedance Analysis,BIA-BIA_LDM,Khối lượng khô tinh,float,,
+Bio-electric Impedance Analysis,BIA-BIA_LST,Mô mềm tinh,float,,
+Bio-electric Impedance Analysis,BIA-BIA_SMM,Khối lượng cơ xương,float,,
+Bio-electric Impedance Analysis,BIA-BIA_TBW,Tổng lượng nước cơ thể,float,,
+Physical Activity Questionnaire (Adolescents),PAQ_A-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+Physical Activity Questionnaire (Adolescents),PAQ_A-PAQ_A_Total,Điểm tóm tắt hoạt động (Thanh thiếu niên),float,,
+Physical Activity Questionnaire (Children),PAQ_C-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+Physical Activity Questionnaire (Children),PAQ_C-PAQ_C_Total,Điểm tóm tắt hoạt động (Trẻ em),float,,
+Parent-Child Internet Addiction Test,PCIAT-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_01,Mức độ con bạn không tuân thủ giới hạn thời gian sử dụng trực tuyến mà bạn đặt ra?,categorical int,"0,1,2,3,4,5","0=Không Áp Dụng, 1=Hiếm, 2=Thỉnh Thoảng, 3=Thường Xuyên, 4=Hay, 5=Luôn Luôn"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_02,Mức độ con bạn bỏ qua việc nhà để dành nhiều thời gian trực tuyến?,categorical int,"0,1,2,3,4,5","0=Không Áp Dụng, 1=Hiếm, 2=Thỉnh Thoảng, 3=Thường Xuyên, 4=Hay, 5=Luôn Luôn"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_03,Mức độ con bạn thích dành thời gian trực tuyến hơn là ở với gia đình?,categorical int,"0,1,2,3,4,5","0=Không Áp Dụng, 1=Hiếm, 2=Thỉnh Thoảng, 3=Thường Xuyên, 4=Hay, 5=Luôn Luôn"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_Total,Tổng điểm,int,,Chỉ số Mức độ Nghiêm trọng: 0-30=Không; 31-49=Nhẹ; 50-79=Trung bình; 80-100=Nặng
+Sleep Disturbance Scale,SDS-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+Sleep Disturbance Scale,SDS-SDS_Total_Raw,Tổng điểm thô,int,,
+Sleep Disturbance Scale,SDS-SDS_Total_T,Tổng điểm T,int,,
+Internet Use,PreInt_EduHx-Season,Mùa tham gia,str,"Spring, Summer, Fall, Winter",
+Internet Use,PreInt_EduHx-computerinternet_hoursday,Số giờ sử dụng máy tính/internet,categorical int,"0,1,2,3","0=Dưới 1 giờ/ngày, 1=Khoảng 1 giờ/ngày, 2=Khoảng 2 giờ/ngày, 3=Hơn 3 giờ/ngày"
