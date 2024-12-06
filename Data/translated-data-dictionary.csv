@@ -43,7 +43,7 @@ BIA-BIA_FFM	Khối lượng không chứa mỡ
 BIA-BIA_FFMI	Chỉ số khối lượng không chứa mỡ
 BIA-BIA_FMI	Chỉ số khối lượng mỡ
 BIA-BIA_Fat	Phần trăm mỡ cơ thể
-BIA-BIA_Frame_num	Khung cơ thể
+BIA-BIA_Frame_num	Bộ khung cơ thể
 BIA-BIA_ICW	Nước nội bào
 BIA-BIA_LDM	Khối lượng khô tinh gọn
 BIA-BIA_LST	Mô mềm tinh gọn
@@ -54,7 +54,7 @@ PAQ_A-PAQ_A_Total	Điểm tổng hoạt động (Thanh thiếu niên)
 PAQ_C-Season	Mùa tham gia
 PAQ_C-PAQ_C_Total	Điểm tổng hoạt động (Trẻ em)
 PCIAT-Season	Mùa tham gia
-PCIAT-PCIAT_01	Mức độ con bạn vi phạm giới hạn thời gian sử dụng online mà bạn đặt ra
+PCIAT-PCIAT_01	Mức độ con bạn vi phạm giới hạn thời gian lên mạng mà bạn đặt ra
 PCIAT-PCIAT_02	Mức độ con bạn bỏ bê việc nhà để dành nhiều thời gian hơn trên internet
 PCIAT-PCIAT_03	Mức độ con bạn thích dành thời gian trực tuyến hơn là ở với gia đình
 PCIAT-PCIAT_04	Mức độ con bạn tạo mối quan hệ mới với những người dùng trực tuyến khác
